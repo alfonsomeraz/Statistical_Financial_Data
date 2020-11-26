@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Statistical_Financial_Data"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Statistical_Financial_Data">
+				<Option output="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Statistical_Financial_Data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 Statistical_Financial_Data"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Statistical_Financial_Data/fast">
+				<Option output="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Statistical_Financial_Data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 Statistical_Financial_Data/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Charts.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Charts.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FundamentalsCalc.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FundamentalsCalc.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/JSON.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LinkedList.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LinkedList.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/MACalculator.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/MACalculator.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/MainMenu.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/MainMenu.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Node.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/main.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/../../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/../../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/../../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/../../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/../../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

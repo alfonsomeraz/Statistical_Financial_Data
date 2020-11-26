@@ -1,0 +1,14 @@
+//
+// Created by Alfonso Meraz on 11/23/20.
+//
+
+#ifndef STATISTICAL_FINANCIAL_DATA_MAINMENU_H
+#define STATISTICAL_FINANCIAL_DATA_MAINMENU_H
+
+
+class MainMenu {
+
+};
+
+
+#endif //STATISTICAL_FINANCIAL_DATA_MAINMENU_H
