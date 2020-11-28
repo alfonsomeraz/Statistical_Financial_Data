@@ -214,6 +214,7 @@ CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../FundamentalsCalc.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../HTTPRequest.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../JSON.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../LineChart.h
+CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../Portfolio.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../PriceHistory.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../Quotes.h
 CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o: ../Stock.h

@@ -3,8 +3,19 @@
 #include "Stock.h"
 #include <SFML/Graphics.hpp>
 #include "LineChart.h"
+#include <vector>
+#include "Portfolio.h"
 
 int main() {
+    Portfolio portfolio;
+    portfolio.addStock("AAPL");
+    portfolio.addStock("JD");
+    portfolio.getPortfolio();
+    std::cout << portfolio.portfolioSize();
+    portfolio.setPortfolio();
+    portfolio.getPortfolio();
+
+
     // Price History Guide
     // periodType: (The type of period to show)
     // day, month, year, ytd
@@ -24,41 +35,44 @@ int main() {
     // weekly: 1*
     // monthly: 1*
 
-    PriceHistory stock("AAPL", "ytd", "daily"),
-                 stock2("AMD", "ytd", "daily"),
-                 stock3("JD", "ytd", "daily");
-    for(int i = 0; i < stock.size(); i++)
-        std::cout << stock.getClose(i) << " ";
-    std::cout << std::endl;
-    for(int i = 0; i < stock2.size(); i++)
-        std::cout << stock2.getClose(i) << " ";
-    std::cout << std::endl;
-    for(int i = 0; i < stock3.size(); i++)
-        std::cout << stock3.getClose(i) << " ";
-    std::cout << std::endl;
-
-
-    int windowWidth = 1200;
-    int windowHeight = 800;
-    sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), "SFML window");
-
-    LineChart cd(stock, (sf::Vector2i)window.getSize(), 50);
-    LineChart cd2(stock2, (sf::Vector2i)window.getSize(), 50);
-    LineChart cd3(stock3, (sf::Vector2i)window.getSize(), 50);
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            // Close window: exit
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-        window.clear();
-        window.draw(cd);
-        window.draw(cd2);
-        window.draw(cd3);
-        window.display();
-    }
+//    PriceHistory stock("AAPL", "ytd", "daily"),
+//                 stock2("AMD", "ytd", "daily"),
+//                 stock3("JD", "ytd", "daily");
+//    for(int i = 0; i < stock.size(); i++)
+//        std::cout << stock.getClose(i) << " ";
+//    std::cout << std::endl;
+//    for(int i = 0; i < stock2.size(); i++)
+//        std::cout << stock2.getClose(i) << " ";
+//    std::cout << std::endl;
+//    for(int i = 0; i < stock3.size(); i++)
+//        std::cout << stock3.getClose(i) << " ";
+//    std::cout << std::endl;
+//
+//
+//    sf::RenderWindow window(sf::VideoMode(1200, 800), "SFML window");
+//
+//    LineChart cd1(stock, (sf::Vector2i)window.getSize(), 50);
+//    LineChart cd2(stock2, (sf::Vector2i)window.getSize(), 50);
+//    LineChart cd3(stock3, (sf::Vector2i)window.getSize(), 50);
+//
+//    std::vector<LineChart> v;
+//    v.push_back(cd1);
+//    v.push_back(cd2);
+//    v.push_back(cd3);
+//
+//    while (window.isOpen())
+//    {
+//        sf::Event event;
+//        while (window.pollEvent(event))
+//        {
+//            // Close window: exit
+//            if (event.type == sf::Event::Closed)
+//                window.close();
+//        }
+//        window.clear();
+//        for(auto i : v)
+//            window.draw(i);
+//        window.display();
+//    }
     return 0;
 }

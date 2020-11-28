@@ -7,13 +7,18 @@
 #include <string>
 #include <vector>
 #include "Stock.h"
+#include <stack>
 
 class Portfolio {
 public:
     Portfolio();
-
+    void addStock(std::string ticker);
+    int portfolioSize();
+    bool checkEmpty();
+    void getPortfolio();
+    void setPortfolio();
 private:
-    std::vector<Stock> stocks;
+    std::stack<Stock> portfolio;
 };
 
 

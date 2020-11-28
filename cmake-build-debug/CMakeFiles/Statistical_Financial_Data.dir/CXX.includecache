@@ -358,6 +358,20 @@ SFML/Graphics.hpp
 PriceHistory.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.h
 
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.cpp
+Portfolio.h
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h
+
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h
+string
+-
+vector
+-
+Stock.h
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.h
+stack
+-
+
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.h
 HTTPRequest.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.h
@@ -397,6 +411,10 @@ SFML/Graphics.hpp
 -
 LineChart.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.h
+vector
+-
+Portfolio.h
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h
