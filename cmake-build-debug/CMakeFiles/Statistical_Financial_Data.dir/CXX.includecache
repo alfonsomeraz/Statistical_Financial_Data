@@ -358,10 +358,6 @@ SFML/Graphics.hpp
 PriceHistory.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.h
 
-/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.cpp
-Portfolio.h
-/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h
-
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h
 string
 -
@@ -399,6 +395,10 @@ FundamentalsCalc.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FundamentalsCalc.h
 Quotes.h
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.h
+LineChart.h
+/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.h
+stack
+-
 
 /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/main.cpp
 iostream

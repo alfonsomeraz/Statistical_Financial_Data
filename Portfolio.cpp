@@ -10,7 +10,7 @@ Portfolio::Portfolio() {
 
 void Portfolio::addStock(std::string ticker) {
     Stock temp(ticker);
-    portfolio.push(temp);
+    portfolio.push_back(temp);
 }
 
 int Portfolio::portfolioSize() {
@@ -23,11 +23,9 @@ bool Portfolio::checkEmpty() {
 
 void Portfolio::getPortfolio() {
     std::cout << "Portfolio:\n";
-    while(!portfolio.empty())
-    {
-        std::cout << portfolio.top().getSymbol() << std::endl;
-        portfolio.pop();
-    }
+    for(int i = 0; i < portfolio.size(); i++)
+        std::cout << portfolio[i].getSymbol() << std::endl;
+    int i = 0;
 }
 
 void Portfolio::setPortfolio() {
@@ -44,4 +42,35 @@ void Portfolio::setPortfolio() {
         if((ans == 'n') || (ans == 'N'))
             check = true;
     }
+}
+
+double Portfolio::getReturnsOf(std::string ticker) {
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        if(ticker == portfolio[i].getSymbol())
+        {
+            return portfolio[i].getReturnYTD();
+        }
+    }
+}
+
+void Portfolio::remove(std::string ticker) {
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        if(ticker == portfolio[i].getSymbol())
+        {
+            portfolio.erase(portfolio.begin() + i);
+        }
+    }
+}
+
+double Portfolio::getAvgPortfolioReturns() {
+    double sum = 0, avg;
+    int stocks = portfolioSize();
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        sum += portfolio[i].getReturnYTD();
+    }
+    avg = sum / stocks;
+    return avg;
 }

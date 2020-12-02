@@ -11,9 +11,10 @@ int main() {
     portfolio.addStock("AAPL");
     portfolio.addStock("JD");
     portfolio.getPortfolio();
-    std::cout << portfolio.portfolioSize();
     portfolio.setPortfolio();
+    std::cout << portfolio.getReturnsOf("JD") << "%" << std::endl;
     portfolio.getPortfolio();
+    std::cout << "Average returns for the entire portfolio: " << portfolio.getAvgPortfolioReturns() << "%" << std::endl;
 
 
     // Price History Guide

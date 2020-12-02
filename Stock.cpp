@@ -12,3 +12,7 @@ Stock::Stock(std::string ticker) : PriceHistory(ticker),  Quotes(ticker) {
 
 }
 
+void Stock::fillCharts() {
+
+}
+

@@ -8,14 +8,18 @@
 #include "PriceHistory.h"
 #include "FundamentalsCalc.h"
 #include "Quotes.h"
+#include "LineChart.h"
+#include <stack>
 
-class Stock : public PriceHistory, public Quotes{
+class Stock : public PriceHistory, public Quotes, public LineChart{
 public:
     Stock();
     Stock(std::string ticker);
+    void fillCharts();
 private:
     PriceHistory stockTicker;
     Quotes stockQuote;
+    std::stack<LineChart> priceCharts;
 };
 
 

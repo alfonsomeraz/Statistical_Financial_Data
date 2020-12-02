@@ -17,8 +17,11 @@ public:
     bool checkEmpty();
     void getPortfolio();
     void setPortfolio();
+    double getAvgPortfolioReturns();
+    double getReturnsOf(std::string ticker);
+    void remove(std::string ticker);
 private:
-    std::stack<Stock> portfolio;
+    std::vector<Stock> portfolio;
 };
 
 
