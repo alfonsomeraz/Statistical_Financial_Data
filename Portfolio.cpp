@@ -10,7 +10,7 @@ Portfolio::Portfolio() {
 
 void Portfolio::addStock(std::string ticker) {
     Stock temp(ticker);
-    portfolio.push_back(temp);
+    portfolio.insert(temp);
 }
 
 int Portfolio::portfolioSize() {
@@ -18,14 +18,13 @@ int Portfolio::portfolioSize() {
 }
 
 bool Portfolio::checkEmpty() {
-    return portfolio.empty();
+    return portfolio.checkEmpty();
 }
 
 void Portfolio::getPortfolio() {
     std::cout << "Portfolio:\n";
     for(int i = 0; i < portfolio.size(); i++)
-        std::cout << portfolio[i].getSymbol() << std::endl;
-    int i = 0;
+        std::cout << portfolio.seek(i).getSymbol() << std::endl;
 }
 
 void Portfolio::setPortfolio() {
@@ -44,35 +43,14 @@ void Portfolio::setPortfolio() {
     }
 }
 
-double Portfolio::getReturnsOf(std::string ticker) {
-    for(int i = 0; i < portfolioSize(); i++)
-    {
-        if(ticker == portfolio[i].getSymbol())
-        {
-            return portfolio[i].getReturnYTD();
-        }
-    }
-}
-
 void Portfolio::remove(std::string ticker) {
     for(int i = 0; i < portfolioSize(); i++)
     {
-        if(ticker == portfolio[i].getSymbol())
+        if(ticker == portfolio.seek(i).getSymbol())
         {
-            portfolio.erase(portfolio.begin() + i);
+            portfolio.remove(portfolio.seek(i));
         }
     }
-}
-
-double Portfolio::getAvgPortfolioReturns() {
-    double sum = 0, avg;
-    int stocks = portfolioSize();
-    for(int i = 0; i < portfolio.size(); i++)
-    {
-        sum += portfolio[i].getReturnYTD();
-    }
-    avg = sum / stocks;
-    return avg;
 }
 
 void Portfolio::portfolioInterface() {
@@ -88,11 +66,15 @@ void Portfolio::portfolioInterface() {
         std::cout << "What would you like to do:\n";
         std::cout << "1) Set portfolio.\n";
         std::cout << "2) Add stock.\n";
-        std::cout << "3) Get portfolio average returns.\n";
-        std::cout << "4) Get returns of single stock from portfolio.\n";
-        std::cout << "5) Remove stock.\n";
-        std::cout << "6) Get portfolio.\n";
-        std::cout << "7) End.\n";
+        std::cout << "3) Get yearly portfolio average returns.\n";
+        std::cout << "4) Get year to date portfolio average returns.\n";
+        std::cout << "5) Get month portfolio average returns.\n";
+        std::cout << "6) Get yearly returns of single stock from portfolio.\n";
+        std::cout << "7) Get month returns of single stock from portfolio.\n";
+        std::cout << "8) Get year to date returns of single stock from portfolio.\n";
+        std::cout << "9) Remove stock.\n";
+        std::cout << "10) Get portfolio.\n";
+        std::cout << "11) End.\n";
         std::cout << ">> ";
         std::cin >> ans;
         switch(ans)
@@ -107,24 +89,106 @@ void Portfolio::portfolioInterface() {
                 std::cout << std::endl;
                 break;
             case 3:
-                std::cout << "Average portfolio returns: " << getAvgPortfolioReturns() << "%" << std::endl;
+                std::cout << "Average portfolio returns: " << getAvgPortfolioReturnsYear() << "%" << std::endl;
                 break;
             case 4:
-                std::cout << "Enter stock ticker: ";
-                std::cin >> ticker;
-                std::cout << ticker << " returns: " << getReturnsOf(ticker) << "%" << std::endl;
+                std::cout << "Average portfolio returns: " << getAvgPortfolioReturnsYTD() << "%" << std::endl;
                 break;
             case 5:
+                std::cout << "Average portfolio returns: " << getAvgPortfolioReturnsMonth() << "%" << std::endl;
+                break;
+            case 6:
+                std::cout << "Enter stock ticker: ";
+                std::cin >> ticker;
+                std::cout << ticker << " returns: " << getYearReturnsOf(ticker) << "%" << std::endl;
+                break;
+            case 7:
+                std::cout << "Enter stock ticker: ";
+                std::cin >> ticker;
+                std::cout << ticker << " returns: " << getMonthReturnsOf(ticker) << "%" << std::endl;
+                break;
+            case 8:
+                std::cout << "Enter stock ticker: ";
+                std::cin >> ticker;
+                std::cout << ticker << " returns: " << getYTDReturnsOf(ticker) << "%" << std::endl;
+                break;
+            case 9:
                 std::cout << "Enter stock ticker to remove: ";
                 std::cin >> ticker;
                 remove(ticker);
                 break;
-            case 6:
+            case 10:
                 getPortfolio();
                 break;
-            case 7:
+            case 11:
                 end = false;
                 break;
         }
     }
+}
+
+double Portfolio::getMonthReturnsOf(std::string ticker) {
+    for(int i = 0; i < portfolioSize(); i++)
+    {
+        if(ticker == portfolio.seek(i).getSymbol())
+        {
+            return portfolio.seek(i).getMonthReturns();
+        }
+    }
+    return 0;
+}
+
+double Portfolio::getYearReturnsOf(std::string ticker) {
+    for(int i = 0; i < portfolioSize(); i++)
+    {
+        if(ticker == portfolio.seek(i).getSymbol())
+        {
+            return portfolio.seek(i).getYearReturns();
+        }
+    }
+    return 0;
+}
+
+double Portfolio::getYTDReturnsOf(std::string ticker) {
+    for(int i = 0; i < portfolioSize(); i++)
+    {
+        if(ticker == portfolio.seek(i).getSymbol())
+        {
+            return portfolio.seek(i).getYTDReturns();
+        }
+    }
+    return 0;
+}
+
+double Portfolio::getAvgPortfolioReturnsYear() {
+    double sum = 0, avg;
+    int stocks = portfolioSize();
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        sum += portfolio.seek(i).getYearReturns();
+    }
+    avg = sum / stocks;
+    return avg;
+}
+
+double Portfolio::getAvgPortfolioReturnsYTD() {
+    double sum = 0, avg;
+    int stocks = portfolioSize();
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        sum += portfolio.seek(i).getYTDReturns();
+    }
+    avg = sum / stocks;
+    return avg;
+}
+
+double Portfolio::getAvgPortfolioReturnsMonth() {
+    double sum = 0, avg;
+    int stocks = portfolioSize();
+    for(int i = 0; i < portfolio.size(); i++)
+    {
+        sum += portfolio.seek(i).getMonthReturns();
+    }
+    avg = sum / stocks;
+    return avg;
 }

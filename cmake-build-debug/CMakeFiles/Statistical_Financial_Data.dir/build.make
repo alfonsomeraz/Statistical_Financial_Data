@@ -155,18 +155,18 @@ CMakeFiles/Statistical_Financial_Data.dir/MACalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/MACalculator.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/MACalculator.cpp -o CMakeFiles/Statistical_Financial_Data.dir/MACalculator.cpp.s
 
-CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
-CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o: ../PriceHistory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.cpp
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o: ../PriceHistoryOneMonth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryOneMonth.cpp
 
-CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.cpp > CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.i
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryOneMonth.cpp > CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.i
 
-CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.cpp -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.s
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryOneMonth.cpp -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.s
 
 CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
 CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o: ../Quotes.cpp
@@ -233,18 +233,70 @@ CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.cpp -o CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.s
 
-CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
-CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o: ../ChartData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.cpp
+CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o: ../Interfaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.cpp
 
-CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.cpp > CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.i
+CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.cpp > CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.i
 
-CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.cpp -o CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.s
+CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.cpp -o CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.s
+
+CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o: ../SingleStockAnalysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp
+
+CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp > CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.i
+
+CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp -o CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.s
+
+CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o: ../TextBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp
+
+CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp > CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.i
+
+CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp -o CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.s
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o: ../PriceHistoryYTD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.cpp
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.cpp > CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.i
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.cpp -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.s
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o: CMakeFiles/Statistical_Financial_Data.dir/flags.make
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o: ../PriceHistoryTwoYears.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o -c /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.cpp
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.cpp > CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.i
+
+CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.cpp -o CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.s
 
 # Object files for target Statistical_Financial_Data
 Statistical_Financial_Data_OBJECTS = \
@@ -254,13 +306,17 @@ Statistical_Financial_Data_OBJECTS = \
 "CMakeFiles/Statistical_Financial_Data.dir/Portfolio.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/FundamentalsCalc.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/MACalculator.cpp.o" \
-"CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o" \
+"CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/Charts.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/LinkedList.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/MainMenu.cpp.o" \
 "CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.o" \
-"CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o"
+"CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o" \
+"CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o" \
+"CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o" \
+"CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o" \
+"CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o"
 
 # External object files for target Statistical_Financial_Data
 Statistical_Financial_Data_EXTERNAL_OBJECTS =
@@ -271,20 +327,24 @@ Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/Portfolio.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/FundamentalsCalc.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/MACalculator.cpp.o
-Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/Charts.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/LinkedList.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/MainMenu.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.o
-Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o
+Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/build.make
 Statistical_Financial_Data: /usr/local/lib/libsfml-graphics.2.5.1.dylib
 Statistical_Financial_Data: /usr/local/lib/libsfml-audio.2.5.1.dylib
 Statistical_Financial_Data: /usr/local/lib/libsfml-window.2.5.1.dylib
 Statistical_Financial_Data: /usr/local/lib/libsfml-system.2.5.1.dylib
 Statistical_Financial_Data: CMakeFiles/Statistical_Financial_Data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Statistical_Financial_Data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Statistical_Financial_Data"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Statistical_Financial_Data.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

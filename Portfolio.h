@@ -8,6 +8,7 @@
 #include <vector>
 #include "Stock.h"
 #include <stack>
+#include "LinkedList.h"
 
 class Portfolio {
 public:
@@ -17,12 +18,18 @@ public:
     bool checkEmpty();
     void getPortfolio();
     void setPortfolio();
-    double getAvgPortfolioReturns();
-    double getReturnsOf(std::string ticker);
+    double getAvgPortfolioReturnsYear();
+    double getAvgPortfolioReturnsYTD();
+    double getAvgPortfolioReturnsMonth();
+    double getMonthReturnsOf(std::string ticker);
+    double getYearReturnsOf(std::string ticker);
+    double getYTDReturnsOf(std::string ticker);
     void remove(std::string ticker);
     void portfolioInterface();
+
 private:
-    std::vector<Stock> portfolio;
+//    std::vector<Stock> portfolio;
+    LinkedList<Stock> portfolio;
 };
 
 

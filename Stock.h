@@ -5,21 +5,26 @@
 #ifndef STATISTICAL_FINANCIAL_DATA_STOCK_H
 #define STATISTICAL_FINANCIAL_DATA_STOCK_H
 #include <string>
-#include "PriceHistory.h"
-#include "FundamentalsCalc.h"
+#include "PriceHistoryOneMonth.h"
+#include "PriceHistoryYTD.h"
+#include "PriceHistoryTwoYears.h"
 #include "Quotes.h"
-#include "LineChart.h"
-#include <stack>
 
-class Stock : public PriceHistory, public Quotes{
+class Stock : public Quotes{
 public:
     Stock();
     Stock(std::string ticker);
-    void fillCharts();
+    double getYTDReturns();
+    double getMonthReturns();
+    double getYearReturns();
+    friend bool operator==(const Stock& first, const Stock& second);
+    friend bool operator!=(const Stock& first, const Stock& second);
 private:
-    PriceHistory stockTicker;
+    PriceHistoryOneMonth stockMonth;
+    PriceHistoryYTD stockYTD;
+    PriceHistoryTwoYears stockYears;
     Quotes stockQuote;
-    std::stack<LineChart> priceCharts;
+    std::string stockTicker;
 };
 
 

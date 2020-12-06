@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.cpp">
-			<Option target="Statistical_Financial_Data"/>
-		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ChartData.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
@@ -102,6 +99,12 @@
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/JSON.h">
@@ -140,10 +143,22 @@
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Portfolio.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
-		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.cpp">
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryOneMonth.cpp">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
-		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistory.h">
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryOneMonth.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.cpp">
@@ -152,10 +167,25 @@
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/States.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.cpp">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/main.cpp">

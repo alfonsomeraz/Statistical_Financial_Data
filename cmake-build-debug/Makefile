@@ -143,33 +143,6 @@ Statistical_Financial_Data/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/build
 .PHONY : Statistical_Financial_Data/fast
 
-ChartData.o: ChartData.cpp.o
-
-.PHONY : ChartData.o
-
-# target to build an object file
-ChartData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.o
-.PHONY : ChartData.cpp.o
-
-ChartData.i: ChartData.cpp.i
-
-.PHONY : ChartData.i
-
-# target to preprocess a source file
-ChartData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.i
-.PHONY : ChartData.cpp.i
-
-ChartData.s: ChartData.cpp.s
-
-.PHONY : ChartData.s
-
-# target to generate assembly for a file
-ChartData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ChartData.cpp.s
-.PHONY : ChartData.cpp.s
-
 Charts.o: Charts.cpp.o
 
 .PHONY : Charts.o
@@ -250,6 +223,33 @@ HTTPRequest.s: HTTPRequest.cpp.s
 HTTPRequest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/HTTPRequest.cpp.s
 .PHONY : HTTPRequest.cpp.s
+
+Interfaces.o: Interfaces.cpp.o
+
+.PHONY : Interfaces.o
+
+# target to build an object file
+Interfaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o
+.PHONY : Interfaces.cpp.o
+
+Interfaces.i: Interfaces.cpp.i
+
+.PHONY : Interfaces.i
+
+# target to preprocess a source file
+Interfaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.i
+.PHONY : Interfaces.cpp.i
+
+Interfaces.s: Interfaces.cpp.s
+
+.PHONY : Interfaces.s
+
+# target to generate assembly for a file
+Interfaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.s
+.PHONY : Interfaces.cpp.s
 
 LineChart.o: LineChart.cpp.o
 
@@ -386,32 +386,86 @@ Portfolio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Portfolio.cpp.s
 .PHONY : Portfolio.cpp.s
 
-PriceHistory.o: PriceHistory.cpp.o
+PriceHistoryOneMonth.o: PriceHistoryOneMonth.cpp.o
 
-.PHONY : PriceHistory.o
+.PHONY : PriceHistoryOneMonth.o
 
 # target to build an object file
-PriceHistory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.o
-.PHONY : PriceHistory.cpp.o
+PriceHistoryOneMonth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.o
+.PHONY : PriceHistoryOneMonth.cpp.o
 
-PriceHistory.i: PriceHistory.cpp.i
+PriceHistoryOneMonth.i: PriceHistoryOneMonth.cpp.i
 
-.PHONY : PriceHistory.i
+.PHONY : PriceHistoryOneMonth.i
 
 # target to preprocess a source file
-PriceHistory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.i
-.PHONY : PriceHistory.cpp.i
+PriceHistoryOneMonth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.i
+.PHONY : PriceHistoryOneMonth.cpp.i
 
-PriceHistory.s: PriceHistory.cpp.s
+PriceHistoryOneMonth.s: PriceHistoryOneMonth.cpp.s
 
-.PHONY : PriceHistory.s
+.PHONY : PriceHistoryOneMonth.s
 
 # target to generate assembly for a file
-PriceHistory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistory.cpp.s
-.PHONY : PriceHistory.cpp.s
+PriceHistoryOneMonth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryOneMonth.cpp.s
+.PHONY : PriceHistoryOneMonth.cpp.s
+
+PriceHistoryTwoYears.o: PriceHistoryTwoYears.cpp.o
+
+.PHONY : PriceHistoryTwoYears.o
+
+# target to build an object file
+PriceHistoryTwoYears.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o
+.PHONY : PriceHistoryTwoYears.cpp.o
+
+PriceHistoryTwoYears.i: PriceHistoryTwoYears.cpp.i
+
+.PHONY : PriceHistoryTwoYears.i
+
+# target to preprocess a source file
+PriceHistoryTwoYears.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.i
+.PHONY : PriceHistoryTwoYears.cpp.i
+
+PriceHistoryTwoYears.s: PriceHistoryTwoYears.cpp.s
+
+.PHONY : PriceHistoryTwoYears.s
+
+# target to generate assembly for a file
+PriceHistoryTwoYears.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.s
+.PHONY : PriceHistoryTwoYears.cpp.s
+
+PriceHistoryYTD.o: PriceHistoryYTD.cpp.o
+
+.PHONY : PriceHistoryYTD.o
+
+# target to build an object file
+PriceHistoryYTD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o
+.PHONY : PriceHistoryYTD.cpp.o
+
+PriceHistoryYTD.i: PriceHistoryYTD.cpp.i
+
+.PHONY : PriceHistoryYTD.i
+
+# target to preprocess a source file
+PriceHistoryYTD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.i
+.PHONY : PriceHistoryYTD.cpp.i
+
+PriceHistoryYTD.s: PriceHistoryYTD.cpp.s
+
+.PHONY : PriceHistoryYTD.s
+
+# target to generate assembly for a file
+PriceHistoryYTD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.s
+.PHONY : PriceHistoryYTD.cpp.s
 
 Quotes.o: Quotes.cpp.o
 
@@ -440,6 +494,33 @@ Quotes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.s
 .PHONY : Quotes.cpp.s
 
+SingleStockAnalysis.o: SingleStockAnalysis.cpp.o
+
+.PHONY : SingleStockAnalysis.o
+
+# target to build an object file
+SingleStockAnalysis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o
+.PHONY : SingleStockAnalysis.cpp.o
+
+SingleStockAnalysis.i: SingleStockAnalysis.cpp.i
+
+.PHONY : SingleStockAnalysis.i
+
+# target to preprocess a source file
+SingleStockAnalysis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.i
+.PHONY : SingleStockAnalysis.cpp.i
+
+SingleStockAnalysis.s: SingleStockAnalysis.cpp.s
+
+.PHONY : SingleStockAnalysis.s
+
+# target to generate assembly for a file
+SingleStockAnalysis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.s
+.PHONY : SingleStockAnalysis.cpp.s
+
 Stock.o: Stock.cpp.o
 
 .PHONY : Stock.o
@@ -466,6 +547,33 @@ Stock.s: Stock.cpp.s
 Stock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.s
 .PHONY : Stock.cpp.s
+
+TextBox.o: TextBox.cpp.o
+
+.PHONY : TextBox.o
+
+# target to build an object file
+TextBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o
+.PHONY : TextBox.cpp.o
+
+TextBox.i: TextBox.cpp.i
+
+.PHONY : TextBox.i
+
+# target to preprocess a source file
+TextBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.i
+.PHONY : TextBox.cpp.i
+
+TextBox.s: TextBox.cpp.s
+
+.PHONY : TextBox.s
+
+# target to generate assembly for a file
+TextBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.s
+.PHONY : TextBox.cpp.s
 
 main.o: main.cpp.o
 
@@ -503,9 +611,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Statistical_Financial_Data"
-	@echo "... ChartData.o"
-	@echo "... ChartData.i"
-	@echo "... ChartData.s"
 	@echo "... Charts.o"
 	@echo "... Charts.i"
 	@echo "... Charts.s"
@@ -515,6 +620,9 @@ help:
 	@echo "... HTTPRequest.o"
 	@echo "... HTTPRequest.i"
 	@echo "... HTTPRequest.s"
+	@echo "... Interfaces.o"
+	@echo "... Interfaces.i"
+	@echo "... Interfaces.s"
 	@echo "... LineChart.o"
 	@echo "... LineChart.i"
 	@echo "... LineChart.s"
@@ -530,15 +638,27 @@ help:
 	@echo "... Portfolio.o"
 	@echo "... Portfolio.i"
 	@echo "... Portfolio.s"
-	@echo "... PriceHistory.o"
-	@echo "... PriceHistory.i"
-	@echo "... PriceHistory.s"
+	@echo "... PriceHistoryOneMonth.o"
+	@echo "... PriceHistoryOneMonth.i"
+	@echo "... PriceHistoryOneMonth.s"
+	@echo "... PriceHistoryTwoYears.o"
+	@echo "... PriceHistoryTwoYears.i"
+	@echo "... PriceHistoryTwoYears.s"
+	@echo "... PriceHistoryYTD.o"
+	@echo "... PriceHistoryYTD.i"
+	@echo "... PriceHistoryYTD.s"
 	@echo "... Quotes.o"
 	@echo "... Quotes.i"
 	@echo "... Quotes.s"
+	@echo "... SingleStockAnalysis.o"
+	@echo "... SingleStockAnalysis.i"
+	@echo "... SingleStockAnalysis.s"
 	@echo "... Stock.o"
 	@echo "... Stock.i"
 	@echo "... Stock.s"
+	@echo "... TextBox.o"
+	@echo "... TextBox.i"
+	@echo "... TextBox.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

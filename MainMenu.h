@@ -6,18 +6,21 @@
 #define STATISTICAL_FINANCIAL_DATA_MAINMENU_H
 #include "SFML/Graphics.hpp"
 #include <string>
+#include <iostream>
+#include "TextBox.h"
 
 class MainMenu : public sf::RectangleShape {
 public:
     MainMenu();
-    MainMenu(sf::Vector2f window);
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 private:
-    sf::RectangleShape button;
-    sf::Text title;
-    float x;
-    float y;
-    void createTitle();
+    void setScreen();
+    void setTitles();
+    void setClickBoxes();
+    sf::Text stockTicker, currentPortfolio;
+    sf::Font font;
+    sf::RectangleShape portfolioBackground, tickerBox;
+    TextBox inputBox;
 };
 
 

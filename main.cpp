@@ -1,16 +1,27 @@
 #include <iostream>
-#include "PriceHistory.h"
+#include "PriceHistoryOneMonth.h"
+#include "PriceHistoryYTD.h"
+#include "PriceHistoryTwoYears.h"
 #include "Stock.h"
 #include <SFML/Graphics.hpp>
 #include "LineChart.h"
 #include <vector>
 #include "Portfolio.h"
 #include "MainMenu.h"
+#include "Interfaces.h"
 
 int main() {
-    Portfolio portfolio;
-    portfolio.portfolioInterface();
+//    Portfolio portfolio;
+//    portfolio.portfolioInterface();
+//    Interfaces project;
+//    project.run();
+    PriceHistoryOneMonth stock("AAPL");
+    PriceHistoryYTD stock1("AAPL");
+    PriceHistoryTwoYears stock2("AAPL");
+    std::cout << stock.getReturns() << ", " << stock1.getReturns() << ", " << stock2.getReturns() << std::endl;
 
+    for(int i=0; i<stock.size();i++)
+        std::cout << stock.getReturnAt(i) << std::endl;
 
     // Price History Guide
     // periodType: (The type of period to show)
@@ -30,17 +41,17 @@ int main() {
     // daily: 1*
     // weekly: 1*
     // monthly: 1*
-//    PriceHistory stock("AAPL", "year", "daily"),
+//    PriceHistoryOneMonth stock("AAPL", "year", "daily"),
 //                 stock2("AMD", "year", "daily"),
 //                 stock3("JD", "year", "daily");
 //    for(int i = 0; i < stock.size(); i++)
-//        std::cout << stock.getClose(i) << " ";
+//        std::cout << stock.getCloseAt(i) << " ";
 //    std::cout << std::endl;
 //    for(int i = 0; i < stock2.size(); i++)
-//        std::cout << stock2.getClose(i) << " ";
+//        std::cout << stock2.getCloseAt(i) << " ";
 //    std::cout << std::endl;
 //    for(int i = 0; i < stock3.size(); i++)
-//        std::cout << stock3.getClose(i) << " ";
+//        std::cout << stock3.getCloseAt(i) << " ";
 //    std::cout << std::endl;
 
 

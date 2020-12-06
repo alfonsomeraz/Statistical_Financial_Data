@@ -6,9 +6,9 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(Statistical_Financial_Data main.cpp
             HTTPRequest.cpp HTTPRequest.h JSON.h Stock.cpp Stock.h Portfolio.cpp Portfolio.h
             FundamentalsCalc.cpp FundamentalsCalc.h MACalculator.cpp MACalculator.h
-            PriceHistory.cpp PriceHistory.h Quotes.cpp Quotes.h Charts.cpp Charts.h
+        PriceHistoryOneMonth.cpp PriceHistoryOneMonth.h Quotes.cpp Quotes.h Charts.cpp Charts.h
         Node.h LinkedList.cpp LinkedList.h MainMenu.cpp MainMenu.h
-        LineChart.cpp LineChart.h ChartData.cpp ChartData.h)
+        LineChart.cpp LineChart.h ChartData.h Interfaces.cpp Interfaces.h SingleStockAnalysis.cpp SingleStockAnalysis.h States.h TextBox.cpp TextBox.h PriceHistoryYTD.cpp PriceHistoryYTD.h PriceHistoryTwoYears.cpp PriceHistoryTwoYears.h)
 
 set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)

@@ -5,7 +5,7 @@
 #ifndef MA_CHART_CHART_H
 #define MA_CHART_CHART_H
 #include <SFML/Graphics.hpp>
-#include "PriceHistory.h"
+#include "PriceHistoryOneMonth.h"
 class LineChart : public sf::Drawable, public sf::Transformable{
 
 private:

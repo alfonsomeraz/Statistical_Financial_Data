@@ -4,15 +4,32 @@
 
 #include "Stock.h"
 
-Stock::Stock() : Quotes("AAPL") {
+Stock::Stock() : Stock("AAPL") {
 
 }
 
-Stock::Stock(std::string ticker) : PriceHistory(ticker),  Quotes(ticker) {
+Stock::Stock(std::string ticker) : Quotes(ticker), stockTicker(ticker) {
 
 }
 
-void Stock::fillCharts() {
-
+double Stock::getYTDReturns() {
+    return stockYTD.getReturns();
 }
 
+double Stock::getMonthReturns() {
+    return stockMonth.getReturns();
+}
+
+double Stock::getYearReturns() {
+    return stockYears.getReturns();
+}
+
+bool operator==(const Stock& first, const Stock& second)
+{
+    return (first.stockTicker == second.stockTicker);
+}
+
+bool operator!=(const Stock& first, const Stock& second)
+{
+    return (first.stockTicker != second.stockTicker);
+}

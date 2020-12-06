@@ -59,7 +59,7 @@ double Quotes::getNetChange() {
 }
 
 int Quotes::getTotalVolume() {
-    return (static_cast<int>(j[stockTicker]["totalVolume"]));
+    return (static_cast<int>(j[stockTicker]["getVolumeAt"]));
 }
 
 double Quotes::getVolatility() {
