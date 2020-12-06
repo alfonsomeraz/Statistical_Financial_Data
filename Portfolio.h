@@ -20,6 +20,7 @@ public:
     double getAvgPortfolioReturns();
     double getReturnsOf(std::string ticker);
     void remove(std::string ticker);
+    void portfolioInterface();
 private:
     std::vector<Stock> portfolio;
 };

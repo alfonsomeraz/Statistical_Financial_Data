@@ -45,7 +45,7 @@ void Portfolio::setPortfolio() {
 }
 
 double Portfolio::getReturnsOf(std::string ticker) {
-    for(int i = 0; i < portfolio.size(); i++)
+    for(int i = 0; i < portfolioSize(); i++)
     {
         if(ticker == portfolio[i].getSymbol())
         {
@@ -55,7 +55,7 @@ double Portfolio::getReturnsOf(std::string ticker) {
 }
 
 void Portfolio::remove(std::string ticker) {
-    for(int i = 0; i < portfolio.size(); i++)
+    for(int i = 0; i < portfolioSize(); i++)
     {
         if(ticker == portfolio[i].getSymbol())
         {
@@ -73,4 +73,58 @@ double Portfolio::getAvgPortfolioReturns() {
     }
     avg = sum / stocks;
     return avg;
+}
+
+void Portfolio::portfolioInterface() {
+    int ans;
+    bool end = true;
+    std::string ticker;
+    std::cout << "Current portfolio:\n";
+    while(end != false){
+        if(checkEmpty())
+        {
+            std::cout << "Portfolio is empty.\n";
+        }
+        std::cout << "What would you like to do:\n";
+        std::cout << "1) Set portfolio.\n";
+        std::cout << "2) Add stock.\n";
+        std::cout << "3) Get portfolio average returns.\n";
+        std::cout << "4) Get returns of single stock from portfolio.\n";
+        std::cout << "5) Remove stock.\n";
+        std::cout << "6) Get portfolio.\n";
+        std::cout << "7) End.\n";
+        std::cout << ">> ";
+        std::cin >> ans;
+        switch(ans)
+        {
+            case 1:
+                setPortfolio();
+                break;
+            case 2:
+                std::cout << "Enter stock ticker: ";
+                std::cin >> ticker;
+                addStock(ticker);
+                std::cout << std::endl;
+                break;
+            case 3:
+                std::cout << "Average portfolio returns: " << getAvgPortfolioReturns() << "%" << std::endl;
+                break;
+            case 4:
+                std::cout << "Enter stock ticker: ";
+                std::cin >> ticker;
+                std::cout << ticker << " returns: " << getReturnsOf(ticker) << "%" << std::endl;
+                break;
+            case 5:
+                std::cout << "Enter stock ticker to remove: ";
+                std::cin >> ticker;
+                remove(ticker);
+                break;
+            case 6:
+                getPortfolio();
+                break;
+            case 7:
+                end = false;
+                break;
+        }
+    }
 }

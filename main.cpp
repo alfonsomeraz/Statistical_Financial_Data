@@ -5,16 +5,11 @@
 #include "LineChart.h"
 #include <vector>
 #include "Portfolio.h"
+#include "MainMenu.h"
 
 int main() {
     Portfolio portfolio;
-    portfolio.addStock("AAPL");
-    portfolio.addStock("JD");
-    portfolio.getPortfolio();
-    portfolio.setPortfolio();
-    std::cout << portfolio.getReturnsOf("JD") << "%" << std::endl;
-    portfolio.getPortfolio();
-    std::cout << "Average returns for the entire portfolio: " << portfolio.getAvgPortfolioReturns() << "%" << std::endl;
+    portfolio.portfolioInterface();
 
 
     // Price History Guide
@@ -35,10 +30,9 @@ int main() {
     // daily: 1*
     // weekly: 1*
     // monthly: 1*
-
-//    PriceHistory stock("AAPL", "ytd", "daily"),
-//                 stock2("AMD", "ytd", "daily"),
-//                 stock3("JD", "ytd", "daily");
+//    PriceHistory stock("AAPL", "year", "daily"),
+//                 stock2("AMD", "year", "daily"),
+//                 stock3("JD", "year", "daily");
 //    for(int i = 0; i < stock.size(); i++)
 //        std::cout << stock.getClose(i) << " ";
 //    std::cout << std::endl;
@@ -48,8 +42,8 @@ int main() {
 //    for(int i = 0; i < stock3.size(); i++)
 //        std::cout << stock3.getClose(i) << " ";
 //    std::cout << std::endl;
-//
-//
+
+
 //    sf::RenderWindow window(sf::VideoMode(1200, 800), "SFML window");
 //
 //    LineChart cd1(stock, (sf::Vector2i)window.getSize(), 50);

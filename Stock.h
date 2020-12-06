@@ -11,7 +11,7 @@
 #include "LineChart.h"
 #include <stack>
 
-class Stock : public PriceHistory, public Quotes, public LineChart{
+class Stock : public PriceHistory, public Quotes{
 public:
     Stock();
     Stock(std::string ticker);

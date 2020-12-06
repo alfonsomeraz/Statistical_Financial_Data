@@ -25,7 +25,6 @@ void LineChart::setSize(sf::Vector2i size)
 }
 void LineChart::setData(const ChartData& stock)
 {
-    int width = 50;
     int interval = (size.x - binSize) / stock.size();
     for(int i = 0; i < stock.size(); i++)
     {
