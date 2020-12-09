@@ -16,11 +16,21 @@ void Interfaces::run() {
         {
             if(event.type == sf::Event::Closed)
                 window.close();
+            if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
+            {
+                sf::Vector2f mpos = (sf::Vector2f)sf::Mouse::getPosition(window);
+                sf::FloatRect
+                switch(state)
+                {
+                    case SPLASH:
+                        if()
+                }
+            }
         }
         window.clear();
         window.draw(menu);
+        window.draw(chart);
         window.display();
     }
 }
-
 

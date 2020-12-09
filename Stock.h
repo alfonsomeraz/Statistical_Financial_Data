@@ -9,8 +9,9 @@
 #include "PriceHistoryYTD.h"
 #include "PriceHistoryTwoYears.h"
 #include "Quotes.h"
+#include "LineChart.h"
 
-class Stock : public Quotes{
+class Stock : public sf::Drawable, public sf::Transformable, public Quotes{
 public:
     Stock();
     Stock(std::string ticker);
@@ -19,10 +20,12 @@ public:
     double getYearReturns();
     friend bool operator==(const Stock& first, const Stock& second);
     friend bool operator!=(const Stock& first, const Stock& second);
+    virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 private:
     PriceHistoryOneMonth stockMonth;
     PriceHistoryYTD stockYTD;
     PriceHistoryTwoYears stockYears;
+    LineChart chart;
     Quotes stockQuote;
     std::string stockTicker;
 };

@@ -7,6 +7,8 @@
 #include "SFML/Graphics.hpp"
 #include "SingleStockAnalysis.h"
 #include "MainMenu.h"
+#include "Stock.h"
+#include "States.h"
 
 class Interfaces {
 public:
@@ -15,6 +17,9 @@ public:
     void run();
 private:
     MainMenu menu;
+    Stock stock;
+    LineChart chart;
+    states state;
 };
 
 

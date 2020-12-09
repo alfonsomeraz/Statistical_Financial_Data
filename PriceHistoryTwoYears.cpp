@@ -105,6 +105,6 @@ double PriceHistoryTwoYears::calculateReturn(double initial, double final) {
 
 double PriceHistoryTwoYears::getReturnAt(int n) {
     double percent;
-    percent = getOpenAt(n) - getCloseAt(n);
+    percent = ((getOpenAt(n) - getCloseAt(n)) / getOpenAt(n)) * 100;
     return percent;
 }

@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o"
   "CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o"
   "CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o"
+  "CMakeFiles/Statistical_Financial_Data.dir/ReportDay.cpp.o"
+  "CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.o"
   "CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o"
   "CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.o"
   "CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o"

@@ -107,6 +107,6 @@ PriceHistoryOneMonth::PriceHistoryOneMonth(const PriceHistoryOneMonth& priceHist
 
 double PriceHistoryOneMonth::getReturnAt(int n) {
     double percent;
-    percent = getOpenAt(n) - getCloseAt(n);
+    percent = ((getOpenAt(n) - getCloseAt(n)) / getOpenAt(n)) * 100;
     return percent;
 }

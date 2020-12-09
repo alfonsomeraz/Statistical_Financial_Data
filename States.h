@@ -6,7 +6,11 @@
 #define STATISTICAL_FINANCIAL_DATA_STATES_H
 
 
-enum states { SHOW, HIDE};
+enum states {
+    SPLASH,
+    PORTFOLIO,
+    STOCK
+};
 
 
 #endif //STATISTICAL_FINANCIAL_DATA_STATES_H

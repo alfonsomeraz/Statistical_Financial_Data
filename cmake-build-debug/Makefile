@@ -494,6 +494,60 @@ Quotes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.s
 .PHONY : Quotes.cpp.s
 
+ReportDay.o: ReportDay.cpp.o
+
+.PHONY : ReportDay.o
+
+# target to build an object file
+ReportDay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ReportDay.cpp.o
+.PHONY : ReportDay.cpp.o
+
+ReportDay.i: ReportDay.cpp.i
+
+.PHONY : ReportDay.i
+
+# target to preprocess a source file
+ReportDay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ReportDay.cpp.i
+.PHONY : ReportDay.cpp.i
+
+ReportDay.s: ReportDay.cpp.s
+
+.PHONY : ReportDay.s
+
+# target to generate assembly for a file
+ReportDay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/ReportDay.cpp.s
+.PHONY : ReportDay.cpp.s
+
+SFMLdraw.o: SFMLdraw.cpp.o
+
+.PHONY : SFMLdraw.o
+
+# target to build an object file
+SFMLdraw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.o
+.PHONY : SFMLdraw.cpp.o
+
+SFMLdraw.i: SFMLdraw.cpp.i
+
+.PHONY : SFMLdraw.i
+
+# target to preprocess a source file
+SFMLdraw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.i
+.PHONY : SFMLdraw.cpp.i
+
+SFMLdraw.s: SFMLdraw.cpp.s
+
+.PHONY : SFMLdraw.s
+
+# target to generate assembly for a file
+SFMLdraw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.s
+.PHONY : SFMLdraw.cpp.s
+
 SingleStockAnalysis.o: SingleStockAnalysis.cpp.o
 
 .PHONY : SingleStockAnalysis.o
@@ -650,6 +704,12 @@ help:
 	@echo "... Quotes.o"
 	@echo "... Quotes.i"
 	@echo "... Quotes.s"
+	@echo "... ReportDay.o"
+	@echo "... ReportDay.i"
+	@echo "... ReportDay.s"
+	@echo "... SFMLdraw.o"
+	@echo "... SFMLdraw.i"
+	@echo "... SFMLdraw.s"
 	@echo "... SingleStockAnalysis.o"
 	@echo "... SingleStockAnalysis.i"
 	@echo "... SingleStockAnalysis.s"

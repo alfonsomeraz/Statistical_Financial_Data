@@ -17,10 +17,12 @@ private:
     void setScreen();
     void setTitles();
     void setClickBoxes();
+    void setMainMenuButton();
     sf::Text stockTicker, currentPortfolio;
     sf::Font font;
     sf::RectangleShape portfolioBackground, tickerBox;
     TextBox inputBox;
+    sf::RectangleShape mainMenuButton;
 };
 
 

@@ -15,13 +15,32 @@ int main() {
 //    portfolio.portfolioInterface();
 //    Interfaces project;
 //    project.run();
-    PriceHistoryOneMonth stock("AAPL");
-    PriceHistoryYTD stock1("AAPL");
-    PriceHistoryTwoYears stock2("AAPL");
-    std::cout << stock.getReturns() << ", " << stock1.getReturns() << ", " << stock2.getReturns() << std::endl;
+    PriceHistoryOneMonth stockMonth("AAPL");
+    PriceHistoryYTD stockYTD("AAPL");
+    PriceHistoryTwoYears stockYears("AAPL");
+    std::cout << stockMonth.getReturns() << ", " << stockYTD.getReturns() << ", " << stockYears.getReturns() << std::endl;
 
-    for(int i=0; i<stock.size();i++)
-        std::cout << stock.getReturnAt(i) << std::endl;
+    double a[24];
+    std::cout << "size of year " << stockYears.size() << std::endl;
+
+    double initial, final, change, average, sum = 0;
+    int count = 0;
+    for(int i=0; i<504; i++)
+    {
+        initial = stockYears.getReturnAt(i);
+        sum = sum + initial;
+        if(!(i % 21))
+        {
+            average = sum / 21.0;
+            sum = 0;
+            a[count] = average;
+            count++;
+        }
+    }
+    for(int i =0; i < 24; i++)
+    {
+        std::cout << "Average returns for month " << i+1 << ": " << a[i] << "%" << std::endl;
+    }
 
     // Price History Guide
     // periodType: (The type of period to show)

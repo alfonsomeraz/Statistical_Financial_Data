@@ -17,6 +17,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryTwoYears.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryTwoYears.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/PriceHistoryYTD.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/PriceHistoryYTD.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Quotes.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Quotes.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/ReportDay.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/ReportDay.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SFMLdraw.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o"

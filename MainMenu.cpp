@@ -31,6 +31,7 @@ void MainMenu::setTitles() {
 void MainMenu::setScreen() {
     setTitles();
     setClickBoxes();
+    setMainMenuButton();
 }
 
 void MainMenu::setClickBoxes() {
@@ -47,5 +48,13 @@ void MainMenu::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(currentPortfolio);
     window.draw(portfolioBackground);
     window.draw(tickerBox);
+}
+
+void MainMenu::setMainMenuButton() {
+    mainMenuButton.setSize({100, 100});
+    mainMenuButton.setFillColor(sf::Color::Cyan);
+    mainMenuButton.setPosition({1650, 750});
+    mainMenuButton.setOutlineColor(sf::Color::Red);
+    mainMenuButton.setOutlineThickness(1.0f);
 }
 

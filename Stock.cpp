@@ -33,3 +33,7 @@ bool operator!=(const Stock& first, const Stock& second)
 {
     return (first.stockTicker != second.stockTicker);
 }
+
+void Stock::draw(sf::RenderTarget &window, sf::RenderStates states) const {
+    window.draw(chart);
+}

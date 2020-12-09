@@ -8,7 +8,10 @@ add_executable(Statistical_Financial_Data main.cpp
             FundamentalsCalc.cpp FundamentalsCalc.h MACalculator.cpp MACalculator.h
         PriceHistoryOneMonth.cpp PriceHistoryOneMonth.h Quotes.cpp Quotes.h Charts.cpp Charts.h
         Node.h LinkedList.cpp LinkedList.h MainMenu.cpp MainMenu.h
-        LineChart.cpp LineChart.h ChartData.h Interfaces.cpp Interfaces.h SingleStockAnalysis.cpp SingleStockAnalysis.h States.h TextBox.cpp TextBox.h PriceHistoryYTD.cpp PriceHistoryYTD.h PriceHistoryTwoYears.cpp PriceHistoryTwoYears.h)
+        LineChart.cpp LineChart.h ChartData.h Interfaces.cpp Interfaces.h
+        SingleStockAnalysis.cpp SingleStockAnalysis.h States.h TextBox.cpp TextBox.h
+        PriceHistoryYTD.cpp PriceHistoryYTD.h PriceHistoryTwoYears.cpp PriceHistoryTwoYears.h
+        SFMLdraw.cpp SFMLdraw.cpp ReportDay.cpp ReportDay.h)
 
 set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)
