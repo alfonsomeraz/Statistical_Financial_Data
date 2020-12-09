@@ -9,5 +9,7 @@ SingleStockAnalysis::SingleStockAnalysis() {
 }
 
 void SingleStockAnalysis::draw(sf::RenderTarget &window, sf::RenderStates states) const {
-
+    window.draw(fundamentals);
+    window.draw(stock);
 }
+

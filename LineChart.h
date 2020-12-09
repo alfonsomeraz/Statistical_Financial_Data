@@ -7,7 +7,6 @@
 #include <SFML/Graphics.hpp>
 #include "PriceHistoryOneMonth.h"
 class LineChart : public sf::Drawable, public sf::Transformable{
-
 private:
     sf::RectangleShape yAxis, xAxis;
     sf::VertexArray lines;

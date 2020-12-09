@@ -8,6 +8,7 @@
 
 enum states {
     SPLASH,
+    MAINMENU,
     PORTFOLIO,
     STOCK
 };

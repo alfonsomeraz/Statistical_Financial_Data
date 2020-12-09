@@ -34,54 +34,54 @@ std::string Quotes::getDescription() {
     return j[stockTicker]["description"];
 }
 
-double Quotes::getLastPrice() {
-    return (static_cast<double>(j[stockTicker]["lastPrice"]));
+std::string Quotes::getLastPrice() {
+    return std::to_string(static_cast<double>(j[stockTicker]["lastPrice"]));
 }
 
-double Quotes::getOpenPrice() {
-    return (static_cast<double>(j[stockTicker]["openPrice"]));
+std::string Quotes::getOpenPrice() {
+    return std::to_string(static_cast<double>(j[stockTicker]["openPrice"]));
 }
 
-double Quotes::getHighPrice() {
-    return (static_cast<double>(j[stockTicker]["highPrice"]));
+std::string Quotes::getHighPrice() {
+    return std::to_string(static_cast<double>(j[stockTicker]["highPrice"]));
 }
 
-double Quotes::getLowPrice() {
-    return (static_cast<double>(j[stockTicker]["lowPrice"]));
+std::string Quotes::getLowPrice() {
+    return std::to_string(static_cast<double>(j[stockTicker]["lowPrice"]));
 }
 
-double Quotes::getClosePrice() {
-    return (static_cast<double>(j[stockTicker]["closePrice"]));
+std::string Quotes::getClosePrice() {
+    return std::to_string(static_cast<double>(j[stockTicker]["closePrice"]));
 }
 
-double Quotes::getNetChange() {
-    return (static_cast<double>(j[stockTicker]["netChange"]));
+std::string Quotes::getNetChange() {
+    return std::to_string(static_cast<double>(j[stockTicker]["netChange"]));
 }
 
-int Quotes::getTotalVolume() {
-    return (static_cast<int>(j[stockTicker]["getVolumeAt"]));
+std::string Quotes::getTotalVolume() {
+    return std::to_string(static_cast<int>(j[stockTicker]["totalVolume"]));
 }
 
-double Quotes::getVolatility() {
-    return (static_cast<double>(j[stockTicker]["volatility"]));
+std::string Quotes::getVolatility() {
+    return std::to_string(static_cast<double>(j[stockTicker]["volatility"]));
 }
 
-double Quotes::get52WkHigh() {
-    return (static_cast<double>(j[stockTicker]["52WkHigh"]));
+std::string Quotes::get52WkHigh() {
+    return std::to_string(static_cast<double>(j[stockTicker]["52WkHigh"]));
 }
 
-double Quotes::get52WkLow() {
-    return (static_cast<double>(j[stockTicker]["52WkLow"]));
+std::string Quotes::get52WkLow() {
+    return std::to_string(static_cast<double>(j[stockTicker]["52WkLow"]));
 }
 
-double Quotes::getPEratio() {
-    return (static_cast<double>(j[stockTicker]["peRatio"]));
+std::string Quotes::getPEratio() {
+    return std::to_string(static_cast<double>(j[stockTicker]["peRatio"]));
 }
 
-double Quotes::getDivAmount() {
-    return (static_cast<double>(j[stockTicker]["divAmount"]));
+std::string Quotes::getDivAmount() {
+    return std::to_string(static_cast<double>(j[stockTicker]["divAmount"]));
 }
 
-double Quotes::getDivYield() {
-    return (static_cast<double>(j[stockTicker]["divYield"]));
+std::string Quotes::getDivYield() {
+    return std::to_string(static_cast<double>(j[stockTicker]["divYield"]));
 }

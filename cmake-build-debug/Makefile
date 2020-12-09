@@ -170,6 +170,114 @@ Charts.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Charts.cpp.s
 .PHONY : Charts.cpp.s
 
+Colors.o: Colors.cpp.o
+
+.PHONY : Colors.o
+
+# target to build an object file
+Colors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Colors.cpp.o
+.PHONY : Colors.cpp.o
+
+Colors.i: Colors.cpp.i
+
+.PHONY : Colors.i
+
+# target to preprocess a source file
+Colors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Colors.cpp.i
+.PHONY : Colors.cpp.i
+
+Colors.s: Colors.cpp.s
+
+.PHONY : Colors.s
+
+# target to generate assembly for a file
+Colors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Colors.cpp.s
+.PHONY : Colors.cpp.s
+
+Date.o: Date.cpp.o
+
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
+Description.o: Description.cpp.o
+
+.PHONY : Description.o
+
+# target to build an object file
+Description.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Description.cpp.o
+.PHONY : Description.cpp.o
+
+Description.i: Description.cpp.i
+
+.PHONY : Description.i
+
+# target to preprocess a source file
+Description.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Description.cpp.i
+.PHONY : Description.cpp.i
+
+Description.s: Description.cpp.s
+
+.PHONY : Description.s
+
+# target to generate assembly for a file
+Description.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Description.cpp.s
+.PHONY : Description.cpp.s
+
+FullDescription.o: FullDescription.cpp.o
+
+.PHONY : FullDescription.o
+
+# target to build an object file
+FullDescription.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FullDescription.cpp.o
+.PHONY : FullDescription.cpp.o
+
+FullDescription.i: FullDescription.cpp.i
+
+.PHONY : FullDescription.i
+
+# target to preprocess a source file
+FullDescription.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FullDescription.cpp.i
+.PHONY : FullDescription.cpp.i
+
+FullDescription.s: FullDescription.cpp.s
+
+.PHONY : FullDescription.s
+
+# target to generate assembly for a file
+FullDescription.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FullDescription.cpp.s
+.PHONY : FullDescription.cpp.s
+
 FundamentalsCalc.o: FundamentalsCalc.cpp.o
 
 .PHONY : FundamentalsCalc.o
@@ -197,6 +305,33 @@ FundamentalsCalc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FundamentalsCalc.cpp.s
 .PHONY : FundamentalsCalc.cpp.s
 
+FundamentalsList.o: FundamentalsList.cpp.o
+
+.PHONY : FundamentalsList.o
+
+# target to build an object file
+FundamentalsList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FundamentalsList.cpp.o
+.PHONY : FundamentalsList.cpp.o
+
+FundamentalsList.i: FundamentalsList.cpp.i
+
+.PHONY : FundamentalsList.i
+
+# target to preprocess a source file
+FundamentalsList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FundamentalsList.cpp.i
+.PHONY : FundamentalsList.cpp.i
+
+FundamentalsList.s: FundamentalsList.cpp.s
+
+.PHONY : FundamentalsList.s
+
+# target to generate assembly for a file
+FundamentalsList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/FundamentalsList.cpp.s
+.PHONY : FundamentalsList.cpp.s
+
 HTTPRequest.o: HTTPRequest.cpp.o
 
 .PHONY : HTTPRequest.o
@@ -223,6 +358,33 @@ HTTPRequest.s: HTTPRequest.cpp.s
 HTTPRequest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/HTTPRequest.cpp.s
 .PHONY : HTTPRequest.cpp.s
+
+Image.o: Image.cpp.o
+
+.PHONY : Image.o
+
+# target to build an object file
+Image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Image.cpp.o
+.PHONY : Image.cpp.o
+
+Image.i: Image.cpp.i
+
+.PHONY : Image.i
+
+# target to preprocess a source file
+Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Image.cpp.i
+.PHONY : Image.cpp.i
+
+Image.s: Image.cpp.s
+
+.PHONY : Image.s
+
+# target to generate assembly for a file
+Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Image.cpp.s
+.PHONY : Image.cpp.s
 
 Interfaces.o: Interfaces.cpp.o
 
@@ -602,6 +764,60 @@ Stock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.s
 .PHONY : Stock.cpp.s
 
+Summary.o: Summary.cpp.o
+
+.PHONY : Summary.o
+
+# target to build an object file
+Summary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Summary.cpp.o
+.PHONY : Summary.cpp.o
+
+Summary.i: Summary.cpp.i
+
+.PHONY : Summary.i
+
+# target to preprocess a source file
+Summary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Summary.cpp.i
+.PHONY : Summary.cpp.i
+
+Summary.s: Summary.cpp.s
+
+.PHONY : Summary.s
+
+# target to generate assembly for a file
+Summary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Summary.cpp.s
+.PHONY : Summary.cpp.s
+
+TTest.o: TTest.cpp.o
+
+.PHONY : TTest.o
+
+# target to build an object file
+TTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTest.cpp.o
+.PHONY : TTest.cpp.o
+
+TTest.i: TTest.cpp.i
+
+.PHONY : TTest.i
+
+# target to preprocess a source file
+TTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTest.cpp.i
+.PHONY : TTest.cpp.i
+
+TTest.s: TTest.cpp.s
+
+.PHONY : TTest.s
+
+# target to generate assembly for a file
+TTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTest.cpp.s
+.PHONY : TTest.cpp.s
+
 TextBox.o: TextBox.cpp.o
 
 .PHONY : TextBox.o
@@ -628,6 +844,33 @@ TextBox.s: TextBox.cpp.s
 TextBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.s
 .PHONY : TextBox.cpp.s
+
+Title.o: Title.cpp.o
+
+.PHONY : Title.o
+
+# target to build an object file
+Title.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Title.cpp.o
+.PHONY : Title.cpp.o
+
+Title.i: Title.cpp.i
+
+.PHONY : Title.i
+
+# target to preprocess a source file
+Title.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Title.cpp.i
+.PHONY : Title.cpp.i
+
+Title.s: Title.cpp.s
+
+.PHONY : Title.s
+
+# target to generate assembly for a file
+Title.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Title.cpp.s
+.PHONY : Title.cpp.s
 
 main.o: main.cpp.o
 
@@ -668,12 +911,30 @@ help:
 	@echo "... Charts.o"
 	@echo "... Charts.i"
 	@echo "... Charts.s"
+	@echo "... Colors.o"
+	@echo "... Colors.i"
+	@echo "... Colors.s"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
+	@echo "... Description.o"
+	@echo "... Description.i"
+	@echo "... Description.s"
+	@echo "... FullDescription.o"
+	@echo "... FullDescription.i"
+	@echo "... FullDescription.s"
 	@echo "... FundamentalsCalc.o"
 	@echo "... FundamentalsCalc.i"
 	@echo "... FundamentalsCalc.s"
+	@echo "... FundamentalsList.o"
+	@echo "... FundamentalsList.i"
+	@echo "... FundamentalsList.s"
 	@echo "... HTTPRequest.o"
 	@echo "... HTTPRequest.i"
 	@echo "... HTTPRequest.s"
+	@echo "... Image.o"
+	@echo "... Image.i"
+	@echo "... Image.s"
 	@echo "... Interfaces.o"
 	@echo "... Interfaces.i"
 	@echo "... Interfaces.s"
@@ -716,9 +977,18 @@ help:
 	@echo "... Stock.o"
 	@echo "... Stock.i"
 	@echo "... Stock.s"
+	@echo "... Summary.o"
+	@echo "... Summary.i"
+	@echo "... Summary.s"
+	@echo "... TTest.o"
+	@echo "... TTest.i"
+	@echo "... TTest.s"
 	@echo "... TextBox.o"
 	@echo "... TextBox.i"
 	@echo "... TextBox.s"
+	@echo "... Title.o"
+	@echo "... Title.i"
+	@echo "... Title.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

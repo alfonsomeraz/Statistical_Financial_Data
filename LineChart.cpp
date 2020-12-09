@@ -5,8 +5,9 @@
 #include "LineChart.h"
 
 LineChart::LineChart(){}
+
 LineChart::LineChart(const ChartData& stock, sf::Vector2i size, int binSize) :
-lines(sf::LineStrip, stock.size()), binSize(binSize), size(size)
+lines(sf::LineStrip, stock.size()), binSize(20), size(size)
 {
     xAxis.setFillColor(sf::Color::White);
     xAxis.setPosition(0,size.y-binSize);
@@ -21,14 +22,14 @@ void LineChart::setSize(sf::Vector2i size)
 {
     yAxis.setSize(sf::Vector2f(binSize, size.y));
     xAxis.setSize(sf::Vector2f(size.x, binSize));
-
 }
+
 void LineChart::setData(const ChartData& stock)
 {
     int interval = (size.x - binSize) / stock.size();
     for(int i = 0; i < stock.size(); i++)
     {
-        lines[i].position = sf::Vector2f(binSize, size.y - (stock.getPoint(i) * 5));
+        lines[i].position = sf::Vector2f(binSize, size.y - stock.getPoint(i)); // (stock.getPoint(i))
         binSize += interval;
     }
 }

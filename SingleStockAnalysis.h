@@ -8,13 +8,16 @@
 #include "LineChart.h"
 #include "Quotes.h"
 #include "Stock.h"
+#include "FundamentalsList.h"
 
-class SingleStockAnalysis {
+class SingleStockAnalysis : public sf::Drawable, public sf::Transformable {
 public:
     SingleStockAnalysis();
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 private:
-
+    Stock stock;
+    FundamentalsList fundamentals;
+    sf::Font font;
 };
 
 

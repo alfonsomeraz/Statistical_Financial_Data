@@ -5,8 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Charts.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Charts.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Colors.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Colors.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Date.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Date.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Description.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Description.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FullDescription.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/FullDescription.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FundamentalsCalc.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/FundamentalsCalc.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FundamentalsList.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/FundamentalsList.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/HTTPRequest.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Image.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Image.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Interfaces.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Interfaces.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LineChart.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/LineChart.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/LinkedList.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/LinkedList.cpp.o"
@@ -21,7 +27,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SFMLdraw.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/SingleStockAnalysis.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Stock.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Stock.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Summary.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Summary.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TTest.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/TTest.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/TextBox.cpp.o"
+  "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Title.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/Title.cpp.o"
   "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/main.cpp" "/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/cmake-build-debug/CMakeFiles/Statistical_Financial_Data.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

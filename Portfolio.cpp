@@ -127,34 +127,34 @@ void Portfolio::portfolioInterface() {
     }
 }
 
-double Portfolio::getMonthReturnsOf(std::string ticker) {
+std::string Portfolio::getMonthReturnsOf(std::string ticker) {
     for(int i = 0; i < portfolioSize(); i++)
     {
         if(ticker == portfolio.seek(i).getSymbol())
         {
-            return portfolio.seek(i).getMonthReturns();
+            return portfolio.seek(i).getMonthReturnsString();
         }
     }
     return 0;
 }
 
-double Portfolio::getYearReturnsOf(std::string ticker) {
+std::string Portfolio::getYearReturnsOf(std::string ticker) {
     for(int i = 0; i < portfolioSize(); i++)
     {
         if(ticker == portfolio.seek(i).getSymbol())
         {
-            return portfolio.seek(i).getYearReturns();
+            return portfolio.seek(i).getYearReturnsString();
         }
     }
     return 0;
 }
 
-double Portfolio::getYTDReturnsOf(std::string ticker) {
+std::string Portfolio::getYTDReturnsOf(std::string ticker) {
     for(int i = 0; i < portfolioSize(); i++)
     {
         if(ticker == portfolio.seek(i).getSymbol())
         {
-            return portfolio.seek(i).getYTDReturns();
+            return portfolio.seek(i).getYTDReturnsString();
         }
     }
     return 0;

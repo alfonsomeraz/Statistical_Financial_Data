@@ -21,9 +21,9 @@ public:
     double getAvgPortfolioReturnsYear();
     double getAvgPortfolioReturnsYTD();
     double getAvgPortfolioReturnsMonth();
-    double getMonthReturnsOf(std::string ticker);
-    double getYearReturnsOf(std::string ticker);
-    double getYTDReturnsOf(std::string ticker);
+    std::string getMonthReturnsOf(std::string ticker);
+    std::string getYearReturnsOf(std::string ticker);
+    std::string getYTDReturnsOf(std::string ticker);
     void remove(std::string ticker);
     void portfolioInterface();
 

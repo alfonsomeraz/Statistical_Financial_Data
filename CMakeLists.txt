@@ -11,7 +11,10 @@ add_executable(Statistical_Financial_Data main.cpp
         LineChart.cpp LineChart.h ChartData.h Interfaces.cpp Interfaces.h
         SingleStockAnalysis.cpp SingleStockAnalysis.h States.h TextBox.cpp TextBox.h
         PriceHistoryYTD.cpp PriceHistoryYTD.h PriceHistoryTwoYears.cpp PriceHistoryTwoYears.h
-        SFMLdraw.cpp SFMLdraw.cpp ReportDay.cpp ReportDay.h)
+        SFMLdraw.cpp SFMLdraw.cpp ReportDay.cpp ReportDay.h
+        Colors.h Colors.cpp Date.h Date.cpp Description.h Description.cpp
+        Image.cpp Image.h Title.cpp Title.h TTest.cpp TTest.h Summary.cpp Summary.h
+        FullDescription.cpp FullDescription.h FundamentalsList.cpp FundamentalsList.h)
 
 set(CURL_LIBRARY "-lcurl")
 find_package(CURL REQUIRED)

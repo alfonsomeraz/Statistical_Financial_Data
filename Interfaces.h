@@ -9,6 +9,7 @@
 #include "MainMenu.h"
 #include "Stock.h"
 #include "States.h"
+#include "SFMLdraw.h"
 
 class Interfaces {
 public:
@@ -16,10 +17,19 @@ public:
     sf::RenderWindow window;
     void run();
 private:
+    SingleStockAnalysis stockPage;
+    void setButtons();
+    void setStartButton();
+    void setMainMenuButton();
     MainMenu menu;
     Stock stock;
     LineChart chart;
-    states state;
+    states state = SPLASH;
+    SFMLdraw splashPage;
+    sf::RectangleShape startButton;
+    sf::RectangleShape mainMenuButton;
+    sf::Text mainMenu;
+    sf::Font font;
 };
 
 

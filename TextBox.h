@@ -11,14 +11,15 @@ class TextBox : public sf::Drawable, public sf::Transformable{
 public:
     TextBox();
 private:
-    sf::Text label;
+    sf::Text label, userEnter;
     sf::RectangleShape inputBox;
     states state;
 public:
     void setState(states state);
+    states getState();
     void addEvent();
     void update();
-    virtual void draw(sf::RenderTarget &target, sf::RenderStates state) const;
+    virtual void draw(sf::RenderTarget &window, sf::RenderStates state) const;
 };
 
 

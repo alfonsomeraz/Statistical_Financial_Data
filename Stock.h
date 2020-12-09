@@ -15,6 +15,9 @@ class Stock : public sf::Drawable, public sf::Transformable, public Quotes{
 public:
     Stock();
     Stock(std::string ticker);
+    std::string getYTDReturnsString();
+    std::string getMonthReturnsString();
+    std::string getYearReturnsString();
     double getYTDReturns();
     double getMonthReturns();
     double getYearReturns();
@@ -22,6 +25,11 @@ public:
     friend bool operator!=(const Stock& first, const Stock& second);
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
 private:
+    void setChart();
+    void setReturnStrings();
+    sf::Text ytdReturns, monthReturns, yearReturns;
+    sf::Font font;
+    sf::Vector2i window = {1920,1080};
     PriceHistoryOneMonth stockMonth;
     PriceHistoryYTD stockYTD;
     PriceHistoryTwoYears stockYears;
