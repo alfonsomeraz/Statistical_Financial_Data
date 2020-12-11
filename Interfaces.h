@@ -21,14 +21,14 @@ private:
     void setButtons();
     void setStartButton();
     void setMainMenuButton();
+    void setEnterButton();
     MainMenu menu;
     Stock stock;
-    LineChart chart;
+//    LineChart chart;
     states state = SPLASH;
     SFMLdraw splashPage;
-    sf::RectangleShape startButton;
-    sf::RectangleShape mainMenuButton;
-    sf::Text mainMenu;
+    sf::RectangleShape startButton, enterButton, mainMenuButton;
+    sf::Text mainMenu, enter;
     sf::Font font;
 };
 

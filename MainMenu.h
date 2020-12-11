@@ -13,14 +13,16 @@ class MainMenu : public sf::RectangleShape {
 public:
     MainMenu();
     virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
-    sf::FloatRect getTickerBoxBounds();
+//    sf::FloatRect getInputBoxBounds();
+    void addEvent(sf::RenderWindow& window, sf::Event event);
+    void update(sf::RenderWindow& window, sf::Event event);
 private:
     void setScreen();
     void setTitles();
     void setClickBoxes();
     sf::Text stockTicker, currentPortfolio;
     sf::Font font;
-    sf::RectangleShape portfolioBackground, tickerBox;
+    sf::RectangleShape portfolioBackground;
     TextBox inputBox;
 };
 

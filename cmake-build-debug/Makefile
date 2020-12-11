@@ -251,6 +251,33 @@ Description.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Description.cpp.s
 .PHONY : Description.cpp.s
 
+DollarBill.o: DollarBill.cpp.o
+
+.PHONY : DollarBill.o
+
+# target to build an object file
+DollarBill.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/DollarBill.cpp.o
+.PHONY : DollarBill.cpp.o
+
+DollarBill.i: DollarBill.cpp.i
+
+.PHONY : DollarBill.i
+
+# target to preprocess a source file
+DollarBill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/DollarBill.cpp.i
+.PHONY : DollarBill.cpp.i
+
+DollarBill.s: DollarBill.cpp.s
+
+.PHONY : DollarBill.s
+
+# target to generate assembly for a file
+DollarBill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/DollarBill.cpp.s
+.PHONY : DollarBill.cpp.s
+
 FullDescription.o: FullDescription.cpp.o
 
 .PHONY : FullDescription.o
@@ -358,6 +385,33 @@ HTTPRequest.s: HTTPRequest.cpp.s
 HTTPRequest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/HTTPRequest.cpp.s
 .PHONY : HTTPRequest.cpp.s
+
+Histogram.o: Histogram.cpp.o
+
+.PHONY : Histogram.o
+
+# target to build an object file
+Histogram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Histogram.cpp.o
+.PHONY : Histogram.cpp.o
+
+Histogram.i: Histogram.cpp.i
+
+.PHONY : Histogram.i
+
+# target to preprocess a source file
+Histogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Histogram.cpp.i
+.PHONY : Histogram.cpp.i
+
+Histogram.s: Histogram.cpp.s
+
+.PHONY : Histogram.s
+
+# target to generate assembly for a file
+Histogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/Histogram.cpp.s
+.PHONY : Histogram.cpp.s
 
 Image.o: Image.cpp.o
 
@@ -710,6 +764,33 @@ SFMLdraw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdraw.cpp.s
 .PHONY : SFMLdraw.cpp.s
 
+SFMLdrawMatch.o: SFMLdrawMatch.cpp.o
+
+.PHONY : SFMLdrawMatch.o
+
+# target to build an object file
+SFMLdrawMatch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdrawMatch.cpp.o
+.PHONY : SFMLdrawMatch.cpp.o
+
+SFMLdrawMatch.i: SFMLdrawMatch.cpp.i
+
+.PHONY : SFMLdrawMatch.i
+
+# target to preprocess a source file
+SFMLdrawMatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdrawMatch.cpp.i
+.PHONY : SFMLdrawMatch.cpp.i
+
+SFMLdrawMatch.s: SFMLdrawMatch.cpp.s
+
+.PHONY : SFMLdrawMatch.s
+
+# target to generate assembly for a file
+SFMLdrawMatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/SFMLdrawMatch.cpp.s
+.PHONY : SFMLdrawMatch.cpp.s
+
 SingleStockAnalysis.o: SingleStockAnalysis.cpp.o
 
 .PHONY : SingleStockAnalysis.o
@@ -818,6 +899,33 @@ TTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTest.cpp.s
 .PHONY : TTest.cpp.s
 
+TTestAnalysisItem.o: TTestAnalysisItem.cpp.o
+
+.PHONY : TTestAnalysisItem.o
+
+# target to build an object file
+TTestAnalysisItem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTestAnalysisItem.cpp.o
+.PHONY : TTestAnalysisItem.cpp.o
+
+TTestAnalysisItem.i: TTestAnalysisItem.cpp.i
+
+.PHONY : TTestAnalysisItem.i
+
+# target to preprocess a source file
+TTestAnalysisItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTestAnalysisItem.cpp.i
+.PHONY : TTestAnalysisItem.cpp.i
+
+TTestAnalysisItem.s: TTestAnalysisItem.cpp.s
+
+.PHONY : TTestAnalysisItem.s
+
+# target to generate assembly for a file
+TTestAnalysisItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Statistical_Financial_Data.dir/build.make CMakeFiles/Statistical_Financial_Data.dir/TTestAnalysisItem.cpp.s
+.PHONY : TTestAnalysisItem.cpp.s
+
 TextBox.o: TextBox.cpp.o
 
 .PHONY : TextBox.o
@@ -920,6 +1028,9 @@ help:
 	@echo "... Description.o"
 	@echo "... Description.i"
 	@echo "... Description.s"
+	@echo "... DollarBill.o"
+	@echo "... DollarBill.i"
+	@echo "... DollarBill.s"
 	@echo "... FullDescription.o"
 	@echo "... FullDescription.i"
 	@echo "... FullDescription.s"
@@ -932,6 +1043,9 @@ help:
 	@echo "... HTTPRequest.o"
 	@echo "... HTTPRequest.i"
 	@echo "... HTTPRequest.s"
+	@echo "... Histogram.o"
+	@echo "... Histogram.i"
+	@echo "... Histogram.s"
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
@@ -971,6 +1085,9 @@ help:
 	@echo "... SFMLdraw.o"
 	@echo "... SFMLdraw.i"
 	@echo "... SFMLdraw.s"
+	@echo "... SFMLdrawMatch.o"
+	@echo "... SFMLdrawMatch.i"
+	@echo "... SFMLdrawMatch.s"
 	@echo "... SingleStockAnalysis.o"
 	@echo "... SingleStockAnalysis.i"
 	@echo "... SingleStockAnalysis.s"
@@ -983,6 +1100,9 @@ help:
 	@echo "... TTest.o"
 	@echo "... TTest.i"
 	@echo "... TTest.s"
+	@echo "... TTestAnalysisItem.o"
+	@echo "... TTestAnalysisItem.i"
+	@echo "... TTestAnalysisItem.s"
 	@echo "... TextBox.o"
 	@echo "... TextBox.i"
 	@echo "... TextBox.s"

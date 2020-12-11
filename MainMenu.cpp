@@ -37,20 +37,26 @@ void MainMenu::setClickBoxes() {
     portfolioBackground.setFillColor(sf::Color::White);
     portfolioBackground.setSize({1200, 600});
     portfolioBackground.setPosition(50, 350);
-    tickerBox.setFillColor(sf::Color::White);
-    tickerBox.setSize({1050, 50});
-    tickerBox.setPosition(180, 20);
 }
 
 void MainMenu::draw(sf::RenderTarget &window, sf::RenderStates states) const {
     window.draw(stockTicker);
     window.draw(currentPortfolio);
     window.draw(portfolioBackground);
-    window.draw(tickerBox);
+    window.draw(inputBox);
 }
 
-sf::FloatRect MainMenu::getTickerBoxBounds() {
-    return tickerBox.getGlobalBounds();
+//sf::FloatRect MainMenu::getInputBoxBounds() {
+//    return inputBox.getTickerBoxBounds();
+//}
+
+void MainMenu::addEvent(sf::RenderWindow &window, sf::Event event) {
+    inputBox.addEvent(window, event);
 }
+
+void MainMenu::update(sf::RenderWindow &window, sf::Event event) {
+    inputBox.update(window, event);
+}
+
 
 

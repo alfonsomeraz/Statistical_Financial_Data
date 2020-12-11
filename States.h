@@ -10,7 +10,9 @@ enum states {
     SPLASH,
     MAINMENU,
     PORTFOLIO,
-    STOCK
+    STOCK,
+    TYPETEXTENABLED,
+    TYPETEXTDISABLED
 };
 
 

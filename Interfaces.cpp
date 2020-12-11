@@ -9,11 +9,13 @@ Interfaces::Interfaces() : window({1920, 1080, 32}, "Statistical Financial Data"
 }
 
 void Interfaces::run() {
+    window.setFramerateLimit(32);
     while(window.isOpen())
     {
         sf::Event event;
         while(window.pollEvent(event))
         {
+            menu.addEvent(window, event);
             if(event.type == sf::Event::Closed)
                 window.close();
             if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
@@ -21,6 +23,7 @@ void Interfaces::run() {
                 sf::Vector2f mpos = (sf::Vector2f)sf::Mouse::getPosition(window);
                 sf::FloatRect startBounds = startButton.getGlobalBounds();
                 sf::FloatRect menuBounds = mainMenuButton.getGlobalBounds();
+                sf::FloatRect enterBounds = enterButton.getGlobalBounds();
                 switch(state)
                 {
                     case SPLASH:
@@ -34,7 +37,7 @@ void Interfaces::run() {
                         {
                             state = MAINMENU;
                         }
-                        if(menu.getTickerBoxBounds().contains(mpos))
+                        if(enterBounds.contains(mpos))
                         {
                             state = STOCK;
                         }
@@ -47,7 +50,10 @@ void Interfaces::run() {
                         break;
                 }
             }
+            //std::cout << "we are here" << std::endl;
+            menu.update(window, event);
         }
+
         window.clear();
         switch(state)
         {
@@ -59,6 +65,8 @@ void Interfaces::run() {
                 window.draw(menu);
                 window.draw(mainMenuButton);
                 window.draw(mainMenu);
+                window.draw(enterButton);
+                window.draw(enter);
                 break;
             case PORTFOLIO:
                 break;
@@ -78,6 +86,7 @@ void Interfaces::run() {
 void Interfaces::setButtons() {
     setStartButton();
     setMainMenuButton();
+    setEnterButton();
 }
 
 void Interfaces::setStartButton() {
@@ -99,5 +108,18 @@ void Interfaces::setMainMenuButton() {
     mainMenu.setString("Main Menu");
     mainMenu.setFillColor(sf::Color::White);
     mainMenu.setPosition({1620, 25});
+}
+
+void Interfaces::setEnterButton() {
+    enterButton.setSize({150, 50});
+    enterButton.setFillColor(sf::Color::Blue);
+    enterButton.setPosition({1250, 20});
+    enterButton.setOutlineColor(sf::Color::White);
+    enterButton.setOutlineThickness(1.0f);
+    font.loadFromFile("OpenSans-Bold.ttf");
+    enter.setFont(font);
+    enter.setString("Enter");
+    enter.setFillColor(sf::Color::White);
+    enter.setPosition({1270, 25});
 }
 

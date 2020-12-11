@@ -107,6 +107,12 @@
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Description.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/DollarBill.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/DollarBill.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/FullDescription.cpp">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
@@ -129,6 +135,12 @@
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/HTTPRequest.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Histogram.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Histogram.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/Image.cpp">
@@ -215,6 +227,12 @@
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SFMLdraw.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SFMLdrawMatch.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SFMLdrawMatch.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/SingleStockAnalysis.cpp">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
@@ -240,6 +258,12 @@
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TTest.h">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TTestAnalysisItem.cpp">
+			<Option target="Statistical_Financial_Data"/>
+		</Unit>
+		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TTestAnalysisItem.h">
 			<Option target="Statistical_Financial_Data"/>
 		</Unit>
 		<Unit filename="/Users/Alfonso/Documents/CLion/Statistical_Financial_Data/TextBox.cpp">
