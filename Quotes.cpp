@@ -12,7 +12,7 @@ Quotes::Quotes(std::string ticker) : stockTicker(ticker) {
     std::string url;
     url = setURL(ticker);
     http.connectURL(url);
-    http.addParam("apikey", "4XO5FV6PAQ4VGG3JWQ7GPKQIRNLYJLXG");
+    http.addParam("apikey", "");
     j = http.getURLJson();
 }
 
