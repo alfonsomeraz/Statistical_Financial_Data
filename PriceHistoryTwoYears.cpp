@@ -12,7 +12,7 @@ PriceHistoryTwoYears::PriceHistoryTwoYears(std::string ticker) {
     std::string url;
     url = setURL(ticker);
     http.connectURL(url);
-    http.addParam("apikey", "4XO5FV6PAQ4VGG3JWQ7GPKQIRNLYJLXG");
+    http.addParam("apikey", "");
     http.addParam("periodType", "year");
     http.addParam("period", "2");
     http.addParam("frequencyType", "daily");
