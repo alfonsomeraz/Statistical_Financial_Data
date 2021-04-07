@@ -13,7 +13,7 @@ PriceHistoryOneMonth::PriceHistoryOneMonth(std::string ticker) {
     std::string url;
     url = setURL(ticker);
     http.connectURL(url);
-    http.addParam("apikey", "4XO5FV6PAQ4VGG3JWQ7GPKQIRNLYJLXG");
+    http.addParam("apikey", "");
     http.addParam("periodType", "month");
     http.addParam("period", "1");
     http.addParam("frequencyType" , "daily");
